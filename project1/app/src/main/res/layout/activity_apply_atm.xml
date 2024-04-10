@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aadharApply"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ApplyATM">
+
+    <EditText
+        android:id="@+id/aadhaarApply"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/applyTV"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/input_bg"
+        android:ems="12"
+        android:hint="AADHAAR NO."
+        android:inputType="number"
+        android:paddingStart="40dp"
+        android:textAlignment="textStart"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/panApply"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/aadhaarApply"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="PAN number"
+        android:inputType="textPostalAddress"
+        android:paddingStart="40dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/applyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application for ATM card"
+        android:textSize="48dp" />
+
+    <Button
+        android:id="@+id/ATMbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panApply"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/floating_button_btn"
+        android:text="proceed" />
+
+
+</RelativeLayout>

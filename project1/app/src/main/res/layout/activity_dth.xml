@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Dth">
+
+    <TextView
+        android:id="@+id/dthTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="DTH PAYMENT"
+        android:textSize="50sp" />
+
+    <Spinner
+        android:id="@+id/DTHspinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/dthTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/spinner_background"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        android:backgroundTintMode="screen"
+        android:dropDownSelector="@color/white"
+        android:entries="@array/dth_array"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:popupBackground="@drawable/pop_background" />
+
+    <EditText
+        android:id="@+id/subscriberID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/DTHspinner"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_bg"
+        android:hint="Registered Mobile number / subscriber ID"
+        android:inputType="phone"
+        android:paddingStart="30dp"
+        android:paddingEnd="5dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/DTHbill"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/subscriberID"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_bg"
+        android:hint="Amount"
+        android:inputType="number"
+        android:paddingStart="30dp" />
+
+    <Button
+        android:id="@+id/proceedToPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DTHbill"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/floating_button_btn"
+        android:text="Proceed to pay" />
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".electricity">
+
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Electricity Bill"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/serviceBoard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/titleTv"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/input_bg"
+        android:hint="Enter Your Electricity Board"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/serviceNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/serviceBoard"
+        android:layout_alignStart="@+id/serviceBoard"
+        android:layout_alignEnd="@+id/serviceBoard"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/input_bg"
+        android:hint="Enter Your Service Number"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/BillAmount"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/serviceNumber"
+        android:layout_alignStart="@+id/serviceBoard"
+        android:layout_alignEnd="@+id/serviceBoard"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/input_bg"
+        android:hint="Enter Your Bill Amount"
+        android:inputType="number"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/electricPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BillAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/floating_button_btn"
+        android:text="pay bill" />
+</RelativeLayout>

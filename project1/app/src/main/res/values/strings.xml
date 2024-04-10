@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="true">RuPeey</string>
+    <string name="application_name">Rupeey</string>
+    <string name="payments_transfers"><![CDATA[Payments & Transfers]]></string>
+    <string name="add_manage_beneficiary"><![CDATA[Add & Manage Beneficiary]]></string>
+
+    <string name="spinner_data">OPERATORS</string>
+
+    <string-array name="spinner_array">
+        <item>Airtel-prepaid</item>
+        <item>BSNL-prepaid</item>
+        <item>Jio-prepaid</item>
+        <item>Vi-prepaid</item>
+    </string-array>
+
+    <string-array name="dth_array">
+        <item>AIRTEL DIGITAL TV</item>
+        <item>TATA PLAY</item>
+        <item>DISH TV</item>
+        <item>D2H</item>
+        <item>SUN DIRECT</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project1">
+        <activity
+            android:name=".contactus"
+            android:exported="false"
+            android:label="Contact Us"/>
+        <activity
+            android:name=".miniStatement"
+            android:exported="false"
+            android:label="Mini statement" />
+        <activity
+            android:name=".generatingATM"
+            android:exported="false"
+            android:label="generating ATM" />
+        <activity
+            android:name=".ATM"
+            android:exported="false"
+            android:label="ATM CARD details" />
+        <activity
+            android:name=".BlockATM"
+            android:exported="false"
+            android:label="ATM card Blocking" />
+        <activity
+            android:name=".ApplyATM"
+            android:exported="false"
+            android:label="ATM card Applying" />
+        <activity
+            android:name=".EServices"
+            android:exported="false"
+            android:label="E - Services" />
+        <activity
+            android:name=".electricity"
+            android:exported="false"
+            android:label="Electricity Bill Payments" />
+        <activity
+            android:name=".Dth"
+            android:exported="false"
+            android:label="DTH Bill Payment" />
+        <activity
+            android:name=".billPayments"
+            android:exported="false"
+            android:label="Bill Payments" />
+        <activity
+            android:name=".recharge"
+            android:exported="false"
+            android:label="Recharge" />
+        <activity
+            android:name=".BankTransfers"
+            android:exported="false"
+            android:label="Quick Transfers" />
+        <activity
+            android:name=".otherBank"
+            android:exported="false"
+            android:label="Bank Transfers" />
+        <activity
+            android:name=".FundsTransfers"
+            android:exported="false"
+            android:label="@string/payments_transfers" />
+        <activity
+            android:name=".AcSummary"
+            android:exported="false"
+            android:label="Profile" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name=".registerActivity"
+            android:exported="false"
+            android:label="Registration" />
+        <activity
+            android:name=".Homeactivity"
+            android:exported="false"
+            android:label="Login" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

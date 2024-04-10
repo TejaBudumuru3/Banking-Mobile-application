@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ATM">
+
+    <TextView
+        android:id="@+id/textViewATM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ATM Card"
+        android:textSize="64dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/debitcardfront_nobackgroundpreview" />
+
+    <TextView
+        android:id="@+id/cardHolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dataLayout"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-3dp"
+        android:text="B SRINIVAS SAI SARAN TEJA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="1234567890123456"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/dataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardNumber"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="valid Thr : "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="CVV :"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/CVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="312"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/mastro" />
+
+    <Button
+        android:id="@+id/blockATMbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Block Your ATM card"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

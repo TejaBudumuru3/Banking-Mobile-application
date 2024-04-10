@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    tools:context=".otherBank">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bank Transfers"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/Oname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:hint="Account holder Name"
+            android:inputType="textPersonName"
+            android:paddingStart="40dp" />
+
+        <EditText
+            android:id="@+id/OAccountno"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="Account Number"
+            android:inputType="number"
+            android:paddingStart="40dp" />
+
+        <EditText
+            android:id="@+id/Oconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="Confirm Account number"
+            android:inputType="number"
+            android:paddingStart="40dp" />
+
+        <EditText
+            android:id="@+id/Oifsc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="IFSC code"
+            android:inputType="textPersonName"
+            android:paddingStart="40dp" />
+
+        <EditText
+            android:id="@+id/Bankname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="Bank Name"
+            android:inputType="textPersonName"
+            android:paddingStart="40dp" />
+
+        <EditText
+            android:id="@+id/Oamount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="Amount"
+            android:inputType="number"
+            android:paddingStart="40dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/floating_button_btn"
+        android:text="Transfer" />
+
+
+    <ProgressBar
+        android:id="@+id/Oprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTransfer"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

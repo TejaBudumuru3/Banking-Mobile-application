@@ -1,0 +1,73 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable-v24/ic_launcher_foreground (2).xml" value="0.186" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1445" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/bottom_left_btn.xml" value="0.1475" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/bottom_right_btn.xml" value="0.1475" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/btn.xml" value="0.1475" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/btn_bg.xml" value="0.13" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/floating_button_btn.xml" value="0.179" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic__card_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_account_balance_24.xml" value="0.193" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.193" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.193" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_cached_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.1415" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_payments_24.xml" value="0.1415" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_baseline_question_answer_24.xml" value="0.108" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1505" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/input_bg.xml" value="0.1425" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/pop_background.xml" value="0.1495" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/spinne_design.xml" value="0.103" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/spinner_background.xml" value="0.1495" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/drawable/top_right_btn.xml" value="0.1475" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout-large/activity_atm.xml" value="0.130078125" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout-normal/activity_atm.xml" value="0.14151346729371525" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout-small/activity_atm.xml" value="0.19230769230769232" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout-xlarge/activity_atm.xml" value="0.22" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/account_items.xml" value="0.25" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_ac_summary.xml" value="0.25" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_acc_summary.xml" value="0.153125" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_apply_atm.xml" value="0.21" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_atm.xml" value="0.25" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_bank_details.xml" value="0.1" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_bank_transfers.xml" value="0.33" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_bene_entry.xml" value="0.11650045330915684" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_beneficiary.xml" value="0.14" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_bill_payments.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_block_atm.xml" value="0.19" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_chatbot.xml" value="0.142368533561351" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_contactus.xml" value="0.21" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_deposit.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_dth.xml" value="0.33" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_electricity.xml" value="0.25" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_eservices.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_funds_transfers.xml" value="0.2" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_generating_atm.xml" value="0.25" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_homeactivity.xml" value="0.18" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_mini_statement.xml" value="0.22" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_other_bank.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_recharge.xml" value="0.1" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/bot_msg.xml" value="0.1" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/chatbot_activity_main.xml" value="0.142368533561351" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/layout/user_msg.xml" value="0.22" />
+        <entry key="..\:/Users/srini/AndroidStudioProjects/project1/app/src/main/res/menu/logout_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

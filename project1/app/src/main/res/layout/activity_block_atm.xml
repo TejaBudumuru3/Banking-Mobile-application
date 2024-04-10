@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BlockATM">
+
+    <TextView
+        android:id="@+id/blockTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Block Your ATM card"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/BlockAccNum"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/blockTitle"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:hint="Enter your Bank A/C number"
+        android:inputType="numberSigned"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/BlockAadhaar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/BlockAccNum"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_bg"
+        android:hint="Enter your AADHAAR number"
+        android:inputType="numberSigned"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/BlockProceedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BlockAadhaar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/floating_button_btn"
+        android:text="Proceed" />
+
+
+</RelativeLayout>

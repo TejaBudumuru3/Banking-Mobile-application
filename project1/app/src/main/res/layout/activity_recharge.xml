@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".recharge">
+
+    <TextView
+        android:id="@+id/rechargetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Recharge"
+        android:textSize="70sp" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/rechargetv"
+        android:layout_marginTop="80dp"
+
+        android:layout_marginEnd="1dp"
+        android:layout_toStartOf="@+id/MycontactList"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/phNum"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/rechargetv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/input_bg"
+            android:hint="Enter prepaid number"
+            android:inputType="phone"
+            android:paddingStart="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/planstv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plan"
+        android:layout_alignStart="@+id/plan"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:onClick="searchPlans"
+        android:text="Search your plan from internet"
+        android:textColor="#FFEB3B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/MycontactList"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rechargetv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="88dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_contact"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <EditText
+        android:id="@+id/plan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/input_bg"
+        android:hint="Enter prepaid plan"
+        android:inputType="phone"
+        android:paddingStart="15dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/spinner_background"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="multiply"
+        android:dropDownSelector="@color/cardview_dark_background"
+        android:entries="@array/spinner_array"
+        android:paddingStart="20dp"
+        android:popupBackground="@drawable/pop_background" />
+
+    <Button
+        android:id="@+id/rechargebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planstv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/floating_button_btn"
+        android:text="Recharge"
+        android:onClick="rechargeFunction"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_alignStart="@+id/linear1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:text="make sure not have any &quot;White spaces&quot; or  any &quot;Special characters&quot;"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+</RelativeLayout>
